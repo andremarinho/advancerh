@@ -41,9 +41,9 @@ public class Pagina {
         
         try {
             URL url = new URL(endereco);
-            BufferedReader in 
-                = new BufferedReader(new InputStreamReader(url.openStream()));
-            this.pagina = in;
+            
+            this.pagina    = new BufferedReader(new InputStreamReader(url.openStream()));
+            
             } catch (MalformedURLException ex) {
             Logger.getLogger(Pagina.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
