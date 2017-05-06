@@ -27,4 +27,4 @@ URL url = new URL(endereco);
             
 this.pagina  = new BufferedReader(new InputStreamReader(url.openStream()));
                 
-<img src="https://www.dropbox.com/s/0antfewkusnqxcy/advanrh.jpg?dl=0" height="42" width="42"/>
+<img src="https://www.dropbox.com/s/0antfewkusnqxcy/advanrh.jpg?dl=0" height="42" width="42">
